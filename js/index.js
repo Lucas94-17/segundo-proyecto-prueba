@@ -56,7 +56,7 @@ let products = [
     artc: 5,
     id: "monitor-04",
     name: "Monitor Viewsonic 27 Elite ",
-    imge: "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_35325_Monitor_ViewSonic_24.5__XG251G_360Hz_IPS_bde6724f-grn.jpg",
+    imge: "https://logg.api.cygnus.market/static/logg/Global/Monitor%20Gamer%20ViewSonic%20XG270%20ELITE%2027%22%20FHD%201080p%20240Hz%201ms%20LED%20IPS%20G-SYNC%20RGB/ee196db73e174b609e7b3dfa309697e9.webp",
     category: {
       name: "Monitores",
       id: "monitores",
@@ -374,7 +374,7 @@ function chargeproducts1(chosenproducts1) {
                 <h3 class="product_name">${product.name}</h3>        
                 <p class="product_price">$ ${product.price}</p>
                 <button class="add_product" id="${product.id}">Agregar al carrito</button>
-                <button class="detail_product" data-id="${product.id}"><a href="detalle_producto.html">Ver detalles</a></button>
+                <button class="detail_product" data-id="${product.id}"><a href="./html/detalle_producto.html">Ver detalles</a></button>
             </div>`;
 
     productsContainer.append(divProduct);
