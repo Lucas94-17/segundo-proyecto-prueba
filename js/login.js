@@ -35,7 +35,7 @@ form.addEventListener("submit", (e) => {
         if (currentUser.isAdmin) {
             window.location.href = "administracion.html";
         } else {
-            console.log(window.location = "index.html");
+            console.log(window.location.href = "../index.html");
         }
     } else {
         Swal.fire({
